@@ -28,6 +28,6 @@ jobs:
         uses: CQLabs/dcm-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          ci_key: ${{ secrets.DCM_CI_KEY }}
+          ci_key: ${{ secrets.CI_KEY }}
           email: ${{ secrets.DCM_EMAIL }}
           folders: lib
