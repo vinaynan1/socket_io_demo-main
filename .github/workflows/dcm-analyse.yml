@@ -1,8 +1,9 @@
-name: DCM
+name: cicd
 
 on:
   push:
-    branches: main
+    branches:
+      - main
 
 jobs:
   check:
