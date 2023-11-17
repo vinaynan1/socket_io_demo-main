@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           ci_key: ${{ secrets.CI_KEY }}
-          email: ${{ secrets.DCM_EMAIL }}
+          email: ${{ secrets.EMAIL }}
           folders: lib
