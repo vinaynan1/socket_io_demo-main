@@ -2,8 +2,9 @@ name: cicd
 
 on:
   push:
-    branches:
-      - testing
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   check:
