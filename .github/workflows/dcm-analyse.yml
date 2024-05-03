@@ -2,7 +2,7 @@ name: cicdse
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master1 ]
   pull_request:
     branches: [ master ]
 
