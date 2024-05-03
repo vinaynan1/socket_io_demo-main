@@ -13,14 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install Dart and Flutter
-        uses: subosito/flutter-action@v2
-
-      - name: Install dependencies
-        run: flutter pub get
-
-      - name: Install DCM
-        uses: CQLabs/setup-dcm@v1
+      - name
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
