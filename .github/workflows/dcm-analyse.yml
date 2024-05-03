@@ -2,9 +2,9 @@ name: cicdse
 
 on:
   push:
-    branches: [ master1 ]
+    branches: [ Testing ]
   pull_request:
-    branches: [ master ]
+    branches: [ Testing ]
 
 jobs:
   check:
