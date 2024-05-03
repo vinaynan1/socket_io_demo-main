@@ -31,6 +31,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.github/workflows
 
 # Symbolication related
 app.*.symbols
